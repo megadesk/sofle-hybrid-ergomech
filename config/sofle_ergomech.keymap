@@ -29,6 +29,7 @@ name: name##_macro {                      \
         MACRO(ESC_Y,  &kp ESC &kp Y)
         MACRO(ESC_C,  &kp ESC &kp C)
         MACRO(TAB_R,  &kp LA(LGUI) &kp RIGHT)
+        MACRO(TAB_L,  &kp LA(LGUI) &kp LEFT)
         MACRO(vim_q,  &kp COLON &kp Q &kp EXCL)
         MACRO(vim_s,  &kp COLON &kp X)
     };
@@ -83,11 +84,11 @@ name: name##_macro {                      \
 // | CAPS  |       |       |        | Undo  | CUT  |        |        |       | HOME   |   [   |   =    |   ]  |   \|   |       |
 //                 |       |        |       |^ENTER|        |        |  TAB  | ^ENTER |   -_  | LS(-_) |      |
             bindings = <
-&kp  F1   &kp F2    &kp F3       &kp F4    &kp F5        &kp F6                         &kp F7      &kp F8    &kp F9        &kp F10   &kp F11    &kp F12
-&kp GRAVE &kp LG(W) &trans       &trans   &trans         &kp LG(V)                      &kp END     &kp LPAR  &kp UP        &kp RPAR  &kp PIPE   &trans
-&kp TAB   &trans    &kp LC(LEFT) &trans    &kp LC(RIGHT) &kp LG(C)                     &kp BSPC    &kp LEFT  &kp DOWN      &kp RIGHT &kp HASH   &kp SQT
-&trans    &trans    &trans       &trans    &kp LG(Z)     &kp LG(X)   &trans             &kp HOME    &kp LBKT  &kp EQUAL     &kp RBKT  &kp BSLH   &trans
-                    &trans       &trans    &kp RS(RET)   &trans      &trans     &kp TAB &kp RS(RET) &kp MINUS &kp LS(MINUS) &trans
+&kp  F1   &kp F2    &kp F3       &kp F4      &kp F5        &kp F6                         &kp F7      &kp F8    &kp F9        &kp F10   &kp F11    &kp F12
+&kp GRAVE &kp LG(W) &TAB_L       &kp LG(T)   &TAB_R         &kp LG(V)                      &kp END     &kp LPAR  &kp UP        &kp RPAR  &kp PIPE   &trans
+&kp TAB   &trans    &kp LC(LEFT) &kp LG(TAB) &kp LC(RIGHT) &kp LG(C)                     &kp BSPC    &kp LEFT  &kp DOWN      &kp RIGHT &kp HASH   &kp SQT
+&trans    &trans    &trans       &trans      &kp LG(Z)     &kp LG(X)   &trans             &kp HOME    &kp LBKT  &kp EQUAL     &kp RBKT  &kp BSLH   &trans
+                    &trans       &trans      &kp RS(RET)   &trans      &trans     &kp TAB &kp RS(RET) &kp MINUS &kp LS(MINUS) &trans
                                                                          &mkp LCLK  &ESC_M  &ESC_A &ESC_Y  &ESC_B
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
