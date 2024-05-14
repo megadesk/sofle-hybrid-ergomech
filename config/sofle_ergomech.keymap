@@ -28,7 +28,7 @@ name: name##_macro {                      \
         MACRO(ESC_M,  &kp ESC &kp M)
         MACRO(ESC_Y,  &kp ESC &kp Y)
         MACRO(ESC_C,  &kp ESC &kp C)
-        MACRO(TAB_R,  &kp LA(LG(RIGHT))
+        MACRO(TAB_R,  &kp LA(LGUI) &kp RIGHT)
         MACRO(vim_q,  &kp COLON &kp Q &kp EXCL)
         MACRO(vim_s,  &kp COLON &kp X)
     };
