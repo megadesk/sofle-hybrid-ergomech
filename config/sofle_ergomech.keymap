@@ -30,6 +30,7 @@ name: name##_macro {                      \
         MACRO(ESC_C,  &kp ESC &kp C)
         MACRO(TAB_R,  &kp LA(LGUI) &kp RIGHT)
         MACRO(TAB_L,  &kp LA(LGUI) &kp LEFT)
+        MACRO(SCNSHOT,  &kp LS(LGUI) &kp  4)
         MACRO(vim_q,  &kp COLON &kp Q &kp EXCL)
         MACRO(vim_s,  &kp COLON &kp X)
     };
