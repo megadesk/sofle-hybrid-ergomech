@@ -89,7 +89,7 @@ name: name##_macro {                      \
 &kp GRAVE &kp LG(W) &TAB_L       &kp LG(T)   &TAB_R        &kp LG(V)                   &kp END     &kp LPAR  &kp UP        &kp RPAR  &kp PIPE   &trans
 &kp TAB   &trans    &kp LC(LEFT) &kp LG(TAB) &kp LC(RIGHT) &kp LG(C)                   &kp BSPC    &kp LEFT  &kp DOWN      &kp RIGHT &kp HASH   &kp SQT
 &trans    &trans    &trans       &trans      &kp LG(Z)     &kp LG(X)   &trans          &kp HOME    &kp LBKT  &kp EQUAL     &kp RBKT  &kp BSLH   &trans
-                    &trans       &trans      &kp trans     &trans      &kp RS(RET)     &kp TAB &kp RS(RET) &kp MINUS &kp LS(MINUS) &trans
+                    &trans       &trans      &trans        &trans      &kp RS(RET)     &kp TAB &kp RS(RET) &kp MINUS &kp LS(MINUS) &trans
                                                                          &mkp LCLK  &ESC_M  &ESC_A &ESC_Y  &ESC_B
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
