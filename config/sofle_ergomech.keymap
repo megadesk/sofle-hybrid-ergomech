@@ -98,18 +98,18 @@ name: name##_macro {                      \
         raise_layer {
             label = "raise";
 // ------------------------------------------------------------------------------------------------------------
-// | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                      |      |      |       |      |       |        |
-// |       | INS  | PSCR | GUI   |       |      |                      | PGUP |      |       |      |       |        |
-// |       | ALT  | CTRL | SHIFT |       | CAPS |                      | PGDN |      |       |      |       |        |
-// |       | UNDO | CUT  | COPY  | PASTE |      |        |        |      |      |  {   |   +   |  }   |       | ENTER  |
+// | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                        |      |      |       |      |       |        |
+// |       |      |      |       |       |      |                        | PGUP |      |       |      |       |        |
+// |       |      |      |       |       |      |                        | PGDN |      |       |      |       |        |
+// |       |      |      |       |       |      |        |        |      |      |  {   |   +   |  }   |       | ENTER  |
 //                |      |       |^ENTER |      | ^ENTER |        |      |      |      |       |      |
             bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                        &trans    &trans          &trans        &trans       &trans  &trans
-&trans     &kp INS      &kp PSCRN    &kp K_CMENU  &trans       &trans                              &kp PG_UP &trans          &trans        &trans       &trans  &trans
-&trans     &kp LALT     &kp LCTRL    &kp LSHFT    &trans       &kp CLCK                            &kp PG_DN &trans          &trans        &trans       &trans  &trans
-&trans     &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &trans        &trans                &trans    &kp LS(LBKT)    &kp LS(EQUAL) &kp LS(RBKT) &trans  &kp RET
-                        &trans       &trans       &trans       &trans        &kp RS(RET)        &trans  &trans    &trans    &trans   &trans
-                                                                                     &kp A      &kp B  &kp C &kp D  &kp E
+&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4        &trans    &trans        &trans        &trans       &trans  &trans
+&trans     &trans   &trans    &trans  &trans  &trans                               &kp PG_UP &trans        &trans        &trans       &trans  &trans
+&trans     &trans   &trans    &trans  &trans  &trans                               &kp PG_DN &trans        &trans        &trans       &trans  &trans
+&trans     &trans   &trans    &trans  &trans  &trans   &trans                      &trans    &kp LS(LBKT)  &kp LS(EQUAL) &kp LS(RBKT) &trans  &trans
+                    &trans    &trans  &trans  &trans   &kp RS(RET)        &trans   &trans    &trans        &trans        &trans
+                                                                          &kp A  &kp B  &kp C &kp D  &kp E
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
