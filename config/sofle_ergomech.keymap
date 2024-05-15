@@ -83,7 +83,7 @@ name: name##_macro {                      \
 // |   `   | LG(W) | LTab  | NEWTAB | RTab  | PASTE|                         | END    |   (   |   ^    |   )  |   |    |       |
 // | TAB   |       | LC(<) | Apps   | LC(>) | COPY |                         | BKSPC  |   <-  |   v    |  ->  |   #    |  ' "  |
 // | CAPS  |       |       |        | Undo  | CUT  |        |        |       | HOME   |   [   |   =    |   ]  |   \|   |       |
-//                 |       |        |       |      | ^ENTER |        |  TAB  | LG(>) |   -_  | LS(-_) |      |
+//                 |       |        |       |      | ^ENTER |        |  TAB  | LG(>)  |   -_  | LS(-_) |      |
             bindings = <
 &kp  F1   &kp F2    &kp F3       &kp F4      &kp F5        &kp F6                              &kp F7        &kp F8    &kp F9        &kp F10   &kp F11    &kp F12
 &kp GRAVE &kp LG(W) &TAB_L       &kp LG(T)   &TAB_R        &kp LG(V)                           &kp END       &kp LPAR  &kp UP        &kp RPAR  &kp PIPE   &trans
