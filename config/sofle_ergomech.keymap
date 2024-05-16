@@ -99,16 +99,16 @@ name: name##_macro {                      \
             label = "raise";
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR   | BT1     | BT2  |  BT3  |  BT4  |  BT5  |                        |      |      |       |      |       |        |
-// |         |         |      |       |       |       |                        | PGUP |      |       |      |       |        |
-// | SCNSHOT |         |      |       |       |       |                        | PGDN |      |       |      |       |        |
+// | SCNSHOT |         |      |       |       |       |                        | PGUP |      |       |      |       |        |
+// |         |         |      |       |       |       |                        | PGDN |      |       |      |       |        |
 // |         |         |      |       |       |       |        |        |      |      |  {   |   +   |  }   |       | ENTER  |
 //                     |      |       |       | ^ENTER|        |        |      |      |      |       |      |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                         &trans    &trans        &trans        &trans       &trans  &trans
-&trans     &trans       &trans       &trans       &trans       &trans                               &kp PG_UP &trans        &trans        &trans       &trans  &trans
-&SCNSHOT   &trans       &trans       &trans       &trans       &trans                               &kp PG_DN &trans        &trans        &trans       &trans  &trans
-&trans     &trans       &trans       &trans       &trans       &trans        &trans                 &trans    &kp LS(LBKT)  &kp LS(EQUAL) &kp LS(RBKT) &trans  &trans
-                        &trans       &trans       &trans       &kp RS(RET)   &trans        &trans   &trans    &trans        &trans        &trans
+&SCNSHOT &trans       &trans       &trans       &trans       &trans                               &kp PG_UP &trans        &trans        &trans       &trans  &trans
+&trans   &trans       &trans       &trans       &trans       &trans                               &kp PG_DN &trans        &trans        &trans       &trans  &trans
+&trans   &trans       &trans       &trans       &trans       &trans        &trans                 &trans    &kp LS(LBKT)  &kp LS(EQUAL) &kp LS(RBKT) &trans  &trans
+                      &trans       &trans       &trans       &kp RS(RET)   &trans        &trans   &trans    &trans        &trans        &trans
                                                                           &kp A  &kp B  &kp C &kp D  &kp E
             >;
 
