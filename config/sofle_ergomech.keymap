@@ -63,7 +63,7 @@ name: name##_macro {                      \
 // | ESC    |  Q   |  W    |  E     |  R    |  T    |                         |  Y    |  U    |  I    |  O    |  P    | BKSPC  |
 // | RAISE  |  A   |  S    |  D     |  F    |  G    |                         |  H    |  J    |  K    |  L    |  ;:   | LOWER  |
 // | SHIFT  |  Z   |  X    |  C     |  V    |  B    |  MUTE  |        |       |  N    |  M    | ,<    | .>    |  /?   | SHIFT  |
-//                 | CTRL  | ALT    | GUI   | LOWER |  ENTER |        | SPACE | RAISE | GUI   | ALT   | CTRL  |
+//                 | CTRL  | ALT    | GUI   | ENTER |  LOWER |        | SPACE | RAISE | GUI   | ALT   | CTRL  |
             bindings = <
 &kp N1      &kp N2 &kp N3      &kp N4   &kp N5    &kp N6                              &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS &kp EQUAL
 &kp ESC     &kp Q  &kp W       &kp E    &kp R     &kp T                               &kp Y      &kp U     &kp I     &kp O   &kp P     &kp BSPC
