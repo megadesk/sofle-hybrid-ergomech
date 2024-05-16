@@ -87,7 +87,7 @@ name: name##_macro {                      \
             bindings = <
 &kp  F1   &kp F2    &kp F3       &kp F4      &kp F5        &kp F6                              &kp F7        &kp F8    &kp F9        &kp F10   &kp F11    &kp F12
 &kp GRAVE &kp LG(W) &TAB_L       &kp LG(T)   &TAB_R        &kp LG(V)                           &kp END       &kp LPAR  &kp UP        &kp RPAR  &kp PIPE   &trans
-&kp TAB   &kp LG(`) &kp LC(LEFT) &kp LG(TAB) &kp LC(RIGHT) &kp LG(C)                           &kp BSPC      &kp LEFT  &kp DOWN      &kp RIGHT &kp HASH   &kp SQT
+&kp TAB   &kp LG(GRAVE) &kp LC(LEFT) &kp LG(TAB) &kp LC(RIGHT) &kp LG(C)                           &kp BSPC      &kp LEFT  &kp DOWN      &kp RIGHT &kp HASH   &kp SQT
 &trans    &trans    &trans       &trans      &kp LG(Z)     &kp LG(X)   &trans                  &kp HOME      &kp LBKT  &kp EQUAL     &kp RBKT  &kp BSLH   &trans
                     &trans       &trans      &trans        &trans      &kp RS(RET)     &kp TAB &kp LG(RIGHT) &kp MINUS &kp LS(MINUS) &trans
                                                                                        &mkp LCLK  &ESC_M  &ESC_A &ESC_Y  &ESC_B
