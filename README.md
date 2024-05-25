@@ -1,3 +1,8 @@
+# My Sofle Hybrid Keyboard
+
+
+
+
 # Sofle Hybrid Keyboard Guide
 This guide is for flashing the Ergomech Sofle Hybrid Keyboard. The Sofle Hybrid is 6×4+5 keys column-staggered split keyboard, using low profile Kailh Choc switches.
 Ergomech has modified the original Sofle Hybrid to include a 5 way switch on the right side keyboard instead of a rotary encoder.
