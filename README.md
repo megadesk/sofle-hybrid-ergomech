@@ -1,5 +1,5 @@
-# My Sofle Hybrid Keyboard
-
+# Megadesk Sofle Hybrid Keyboard
+![Megadesk Sofle Hybrid](./Image.jpeg)
 
 
 
