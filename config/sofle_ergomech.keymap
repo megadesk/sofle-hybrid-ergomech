@@ -43,6 +43,7 @@ name: name##_macro {                      \
             timeout-ms = <50>;
             key-positions = <53 56>;
             bindings = <&kp LSHFT>;
+            layers = <0>;
         };
     };
 };
