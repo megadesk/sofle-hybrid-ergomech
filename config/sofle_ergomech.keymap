@@ -40,8 +40,8 @@ name: name##_macro {                      \
     combos {
         compatible = "zmk,combos";
         combo_shift {
-            timeout-ms = <50>;
-            key-positions = <53 56>;
+            timeout-ms = <500>;
+            key-positions = <51 56>;
             bindings = <&kp LSHFT>;
             layers = <0>;
         };
