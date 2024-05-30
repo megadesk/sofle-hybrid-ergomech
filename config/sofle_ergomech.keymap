@@ -99,13 +99,13 @@ name: name##_macro {                      \
 // |   F1  |  F2   |  F3   |  F4    |  F5   |  F6    |                         |  F7    |  F8   |  F9    |  F10 |  F11   |  F12  |
 // |   `   |       |       |        |       | PASTE  |                         | END    |   (   |   ^    |   )  |   |    |       |
 // | TAB   |       |       |        |       | COPY   |                         | BKSPC  |   <-  |   v    |  ->  |   #    |  ' "  |
-// | CAPS  |       |       |        | Undo  | CUT    |       |         |       | HOME   |   [   |   =    |   ]  |   \|   |       |
+// |       | CAPS  |       |        | Undo  | CUT    |       |         |       | HOME   |   [   |   =    |   ]  |   \|   |       |
 //                 |       |        |       | ^ENTER |       |         |  TAB  | LG(>)  |   -_  | LS(-_) |      |
             bindings = <
 &kp  F1   &kp F2    &kp F3       &kp F4      &kp F5        &kp F6                              &kp F7        &kp F8    &kp F9        &kp F10   &kp F11    &kp F12
 &kp GRAVE &trans    &trans       &trans      &trans        &kp LG(V)                           &kp END       &kp LPAR  &kp UP        &kp RPAR  &kp PIPE   &trans
 &kp TAB   &trans    &trans       &trans      &trans        &kp LG(C)                           &kp BSPC      &kp LEFT  &kp DOWN      &kp RIGHT &kp HASH   &kp SQT
-&kp CAPS  &trans    &trans       &trans      &kp LG(Z)     &kp LG(X)                           &kp HOME      &kp LBKT  &kp EQUAL     &kp RBKT  &kp BSLH   &trans
+&trans    &kp CAPS    &trans       &trans      &kp LG(Z)     &kp LG(X)                           &kp HOME      &kp LBKT  &kp EQUAL     &kp RBKT  &kp BSLH   &trans
                  &trans &trans       &trans      &trans        &kp RS(RET) &trans      &kp TAB     &kp LG(RIGHT) &kp MINUS &kp LS(MINUS) &trans
                                                                                        &mkp LCLK  &ESC_M  &ESC_A &ESC_Y  &ESC_B
             >;
