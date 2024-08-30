@@ -4,7 +4,7 @@
 if SHIELD_SOFLE_ERGOMECH_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Ergomech Sofle GLP"
+    default "Ergomech Sofle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
